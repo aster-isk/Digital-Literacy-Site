@@ -13,17 +13,20 @@ body {
 
 .page {
   display: flex;
-  width: 100%;
   height: 100%;
   flex-direction: row;
-
+  margin-left: 100px;
+  justify-content: space-around;
 }
 
 .nav-bar {
-  flex-grow: 1;
   height: 100%;
   max-width: 100px;
   min-width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: #c4c4c4;
   overflow-x: hidden;
   padding-top: 60px;
@@ -42,5 +45,19 @@ body {
 
 .main {
   margin: 15px;
-  
+  overflow: scroll;
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: row;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  margin: 15px;
 }
