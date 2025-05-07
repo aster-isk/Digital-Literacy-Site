@@ -88,3 +88,10 @@ input[type="radio"] {
   padding: 10px;
   visibility: hidden;
 }
+
+.landing-page {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
