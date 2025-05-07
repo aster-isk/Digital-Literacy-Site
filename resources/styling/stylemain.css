@@ -1,21 +1,90 @@
-.nav-bar {
-    height: 100%;
-    width: 20%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #c4c4c4;
-    overflow-x: hidden;
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-  }
+html {
+  height: 100%;
+  display: fixed;
+  left: 0;
+  top: 0;
+}
 
-  .nav-bar a {
-    width: 50%;
-    margin: 15px;
-    height: 25px;
-    background-color: white;
-    color: black;
-  }
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  height: 100%;
+  max-width: 100px;
+  min-width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c4c4c4;
+  overflow-x: hidden;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar a {
+  text-align: center;
+  width: 70px;
+  margin: 15px;
+  height: 25px;
+  background-color: white;
+  color: black;
+}
+
+.page {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  margin-left: 100px;
+  justify-content: space-around;
+}
+
+.main {
+  margin: 15px;
+  overflow: hidden;
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: row;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  margin: 15px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.next-btn {
+  padding: 10px 20px;
+  color: black;
+  background-color:#c4c4c4;
+}
+
+.choices {
+  list-style-type: none;
+}
+
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.answer {
+  padding: 10px;
+  visibility: hidden;
+}
