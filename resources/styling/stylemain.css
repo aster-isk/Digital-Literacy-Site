@@ -22,6 +22,7 @@ body {
 .nav-bar {
   flex-grow: 1;
   height: 100%;
+  max-width: 100px;
   min-width: 100px;
   background-color: #c4c4c4;
   overflow-x: hidden;
