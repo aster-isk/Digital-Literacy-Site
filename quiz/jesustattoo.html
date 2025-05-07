@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <title>Digital Literacy</title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+  <link rel="icon" href="../resources/images/fishing-99073_640.png">
+
+  <link rel="stylesheet" href="../resources/styling/stylemain.css">
+
+  <script src="../js/quiz.js"></script>
+</head>
+
+<body>
+  <div class="nav-bar">
+    <a href="https://aster-isk.github.io/Digital-Literacy-Site/">Home</a>
+    <a href="/content/bait.html">Bait</a>
+    <a href="/content/rage-bait.html">Rage Bait</a>
+    <a href="/content/trolling.html">Trolling</a>
+  </div>
+  <div class="page">
+    <div class="main">
+      <div class="examples"></div>
+
+      <div class="quiz">
+        <div class="question">Is this TikTok...</div>
+        <ul class="choices">
+          <li>
+            <label><input type="radio" name="option" value="I" /><span>Interaction Bait</span></label>
+          </li>
+          <li>
+            <label><input type="radio" name="option" value="R" /><span>RageBait</span></label>
+          </li>
+          <li>
+            <label><input type="radio" name="option" value="N" /><span>Neither</span></label>
+          </li>
+        </ul>
+        <div class="btn-container">
+          <button onclick="setResult('N')" id="question-submit" class="next-btn"><b>SUBMIT</b></a>
+        </div>
+      </div>
+      <div class="answer">
+        <b><div id="answer-result"></div></b>
+        <div class="answer-text">
+          Default Text
+        </div>
+        <div class="btn-container">
+          <a href="./karenencounter.html" class="next-btn"><b>NEXT</b></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

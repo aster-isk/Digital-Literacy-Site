@@ -74,3 +74,17 @@ body {
   color: black;
   background-color:#c4c4c4;
 }
+
+.choices {
+  list-style-type: none;
+}
+
+.choices label,
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.answer {
+  padding: 10px;
+  visibility: hidden;
+}
