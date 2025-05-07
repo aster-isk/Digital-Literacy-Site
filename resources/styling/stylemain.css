@@ -11,14 +11,6 @@ body {
   padding: 0;
 }
 
-.page {
-  display: flex;
-  height: 100%;
-  flex-direction: row;
-  margin-left: 100px;
-  justify-content: space-around;
-}
-
 .nav-bar {
   height: 100%;
   max-width: 100px;
@@ -43,9 +35,17 @@ body {
   color: black;
 }
 
+.page {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  margin-left: 100px;
+  justify-content: space-around;
+}
+
 .main {
   margin: 15px;
-  overflow: scroll;
+  overflow: hidden;
   max-width: 50%;
   min-width: 500px;
 }
@@ -60,4 +60,17 @@ body {
   flex-direction: column;
   overflow: scroll;
   margin: 15px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.next-btn {
+  padding: 10px 20px;
+  color: black;
+  background-color:#c4c4c4;
 }
